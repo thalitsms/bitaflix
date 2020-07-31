@@ -2,7 +2,7 @@ import React from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 
-
+/*ESTILIZAR O SLIDER E COLOCAR O JOGO NO 404!!*/
 function CadastroCategoria (){
     return (
       <PageDefault>
@@ -11,14 +11,33 @@ function CadastroCategoria (){
 
           <label>
 
-              Nome da Categoria:
-              <input type="text"/>
+              <input type="text" placeholder="Título:" required/>
+
+          </label>
+
+          <label>
+
+          <input type="text" placeholder="Escolha uma categoria:" required/>
+
+          </label>
+
+          <label>
+            
+            <input type="text"placeholder="Cor:"/>
+
+          </label>
+
+          <label>
+
+            
+          <input type="text" placeholder="Descrição:"/>
 
           </label>
 
             <button>
               Cadastrar
             </button>
+
        </form>
 
 
