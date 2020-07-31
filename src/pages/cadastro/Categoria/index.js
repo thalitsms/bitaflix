@@ -2,7 +2,7 @@ import React from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 
-/*ESTILIZAR O SLIDER E COLOCAR O JOGO NO 404!!*/
+
 function CadastroCategoria (){
     return (
       <PageDefault>
