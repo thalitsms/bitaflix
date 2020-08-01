@@ -1,52 +1,34 @@
-import React from 'react';
-import PageDefault from '../../../components/PageDefault';
-import { Link } from 'react-router-dom';
+import React from "react";
+import PageDefault from "../../../components/PageDefault";
+import { Link } from "react-router-dom";
 
+function CadastroCategoria() {
+  return (
+    <PageDefault>
+      <h1>Cadastro de Categoria</h1>
+      <form>
+        <label>
+          <input type="text" placeholder="Título:" required />
+        </label>
 
-function CadastroCategoria (){
-    return (
-      <PageDefault>
-       <h1>Cadastro de Categoria</h1>
-       <form>
+        <label>
+          <input type="text" placeholder="Escolha uma categoria:" required />
+        </label>
 
-          <label>
+        <label>
+          <input type="text" placeholder="Cor:" />
+        </label>
 
-              <input type="text" placeholder="Título:" required/>
+        <label>
+          <input type="text" placeholder="Descrição:" />
+        </label>
 
-          </label>
+        <button>Cadastrar</button>
+      </form>
 
-          <label>
+      <Link to="/">Ir para home</Link>
+    </PageDefault>
+  );
+}
 
-          <input type="text" placeholder="Escolha uma categoria:" required/>
-
-          </label>
-
-          <label>
-            
-            <input type="text"placeholder="Cor:"/>
-
-          </label>
-
-          <label>
-
-            
-          <input type="text" placeholder="Descrição:"/>
-
-          </label>
-
-            <button>
-              Cadastrar
-            </button>
-
-       </form>
-
-
-        <Link to="/">
-            Ir para home
-        </Link>
-      </PageDefault>
-  
-    )
-  }
-
-  export default CadastroCategoria;
+export default CadastroCategoria;
