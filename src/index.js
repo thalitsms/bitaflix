@@ -7,6 +7,7 @@ import CadastroVideo from "./pages/cadastro/Video";
 import CadastroCategoria from "./pages/cadastro/Categoria";
 import Page404 from "./pages/Page404";
 
+
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
