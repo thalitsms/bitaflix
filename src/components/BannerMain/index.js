@@ -1,15 +1,15 @@
-import React from "react";
-import VideoIframeResponsive from "./components/VideoIframeResponsive";
+import React from 'react';
+import VideoIframeResponsive from './components/VideoIframeResponsive';
 import {
   BannerMainContainer,
   ContentAreaContainer,
   WatchButton,
-} from "./styles";
+} from './styles';
 
 function getYouTubeId(youtubeURL) {
   return youtubeURL.replace(
     /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/,
-    "$7"
+    '$7',
   );
 }
 

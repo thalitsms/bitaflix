@@ -1,12 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import Home from "./pages/Home";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import CadastroVideo from "./pages/cadastro/Video";
-import CadastroCategoria from "./pages/cadastro/Categoria";
-import Page404 from "./pages/Page404";
-
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import CadastroVideo from './pages/cadastro/Video';
+import CadastroCategoria from './pages/cadastro/Categoria';
+import Page404 from './pages/Page404';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -22,5 +21,5 @@ ReactDOM.render(
   //   <App />
   // </React.StrictMode>,
 
-  document.getElementById("root")
+  document.getElementById('root'),
 );

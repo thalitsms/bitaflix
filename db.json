@@ -1,0 +1,10 @@
+{
+    "categorias": [
+        {
+        "id": 1,
+        "nome":  "Bita e os animais",
+        "descricao": "Deixa de manhã",
+        "cor": "#fdc91e"
+        }
+        ]
+}

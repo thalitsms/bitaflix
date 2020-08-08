@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import PageDefault from "../../components/PageDefault";
-import "./index.css";
+import React from 'react';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import PageDefault from '../../components/PageDefault';
+import './index.css';
 
 function Page404() {
   return (
