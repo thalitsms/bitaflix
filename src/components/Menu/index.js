@@ -8,7 +8,7 @@ import Button from '../Button/index.js';
 function Menu() {
   return (
     <nav className="Menu">
-      <Link to=" /">
+      <Link to=" / ">
         <img className="Logo" src={Logo} alt="BitaFlix Logo" />
       </Link>
 
