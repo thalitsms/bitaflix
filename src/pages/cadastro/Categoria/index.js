@@ -30,7 +30,7 @@ function CadastroCategoria() {
   
   useEffect ( ( ) => {
     if(window.location.href.includes('localhost') ) {
-      const URL = 'http://localhost:8080/categorias';
+      const URL = 'https://bitaflix.herokuapp.com/';
       fetch(URL) 
         .then(async ( respostaDoServer ) => {
           if ( respostaDoServer.ok ) {
@@ -112,6 +112,12 @@ function CadastroCategoria() {
           Cadastrar
         </Button>
       </form>
+
+      {categorias.length === 0 && (
+        <div>
+          Loading....
+        </div>
+      )}
 
 
       <ul>
